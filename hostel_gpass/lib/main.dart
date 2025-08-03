@@ -125,3 +125,7 @@ final GoRouter _router = GoRouter(
     ),
   ],
 );
+
+extension on GoRouterState {
+  get location => null;
+}
